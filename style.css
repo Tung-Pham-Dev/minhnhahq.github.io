@@ -23,7 +23,7 @@
   }
   
   .card-header{
-    background: url(./img/img5.jpg) no-repeat center;
+    background: url(./img/img7.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     padding: 60px 40px;
@@ -65,16 +65,16 @@
     font-size: 28px;
     font-weight: 600;
     margin: 10px 0;
-    color: rgb(238, 230, 230);
-    background-color: rgba(187, 187, 187, 0.356);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.61);
     border-radius: 5px;
   }
   
   .desc{
     font-size: 18px;
     padding: 5px;
-    color: rgb(238, 230, 230);
-    background-color: rgba(187, 187, 187, 0.356);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.61);
     border-radius: 5px;
   }
   
@@ -85,7 +85,7 @@
   }
   
   .sm a{
-    color: #0570e6;
+    color: #dbdbdb;
     width: 56px;
     font-size: 49px;
     transition: .3s linear;
@@ -104,9 +104,9 @@
   .contact-btn{
     display: inline-block;
     padding: 12px 50px;
-    color: #e66767;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid #e66767;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.61);
+    border: 2px solid #fff;
     border-radius: 6px;
     margin-top: 16px;
     transition: .3s linear;
@@ -116,28 +116,43 @@
     background: #e66767;
     color: #f2f2f2;
   }
+
+  .contact-btn i {
+    margin-right: 10px;
+  }
   
   .card-footer{
-    background: #f4f4f4;
+    background: #888383;
     padding: 60px 10px;
   }
   
   .numbers{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   
   .item{
+    margin: 0px 10px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .item img{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .item span{
     flex: 1;
     text-transform: uppercase;
     font-size: 13px;
-    color: #e66767;
-  }
-  
-  .item span{
-    display: block;
-    color: #2c3a47;
-    font-size: 30px;
+    color: #ffffff;
   }
   
   .border{
